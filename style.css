@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 234, 255);
+}
+h2 {
+    text-align: center;
+    font-size: 3em;
+    color: hotpink;
+    margin: 15px;
+}

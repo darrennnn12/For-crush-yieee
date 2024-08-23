@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>crush</title>
+<link rel="stylesheet" href="style.css">
+<style>
+p {
+text-align: center;
+font-size: 32px;
+font-family: Candara, Oswald;
+}
+img {
+display: block;
+margin: 0 auto;
+width: 19%;
+}
+</style>
+</head>
+<body>
+    <div class="wrapper ">
+        <h2 class="question">
+            LAAG TA PLESS?
+        </h2>
+    </div>
+<img src="https://media.tenor.com/zGm5acSjHCIAAAAM/cat-begging.gif">
+</body>
+<title>Botões</title>
+<style>
+#botao1 {
+position: fixed;
+top: 60%;
+left: 55%;
+transform: translate(-50%, -50%);
+width: 100px;
+  height: inherit;
+  font-size: 0.9em;
+  border-radius: 30px;
+ background-color: aqua;
+
+}
+#botao2 {
+position: absolute;
+ left: 39%;
+  top: 59%;
+  width: 115px;
+  height: inherit;
+  font-size: 0.9em;
+  border-radius: 30px;
+ background-color: hotpink;
+}
+</style>
+</head>
+<body>
+<button id="botao1">SURE CUTIE!</button>
+<button id="botao2">NO</button>
+<script>
+const button2 = document.getElementById('botao2');
+let left = 40;
+button2.addEventListener('mouseover', function() {
+  if(left == 40){
+    left = 44;
+  }else{
+    left = 40;
+  }
+  this.style.left = left + '%';
+});
+
+</script>
+<script>document.getElementById('botao1').addEventListener('click', function() {
+alert('YAYY THANK U LOVE U');
+});
+</script>
+</body>
+</html>
